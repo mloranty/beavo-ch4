@@ -1,5 +1,5 @@
-GPS_ID,Point,CAVM Class,Site,Upland/Wetland,Shrub/Graminoid,"Shrub Height  prostrate <40cm, low 40-100cm, tall>100",Tussock/No,Moss? (>30%ish),Moisture %,Elevation,ML Notes,Site,Point,Water,Barren,G3,Sedge,Shrub,Ratio,Primary,Secondary,Tertiary,ML Class,Match? review,Distance to Water,Alt Distance,Elevation (25cm),Base Elevation,Elevation Dif
-318,1,G3,WC,upland,grass,prostrate,no,,43.6,41.0,,WC,1,0,0,477,0,0,0:0:10:0:0,G3,Water,Barren,G3,primary,117.5,58.6,47.72,41.59,6.13
+gpsID,plotID,CAVM Class,Site,Upland/Wetland,Shrub/Graminoid,"Shrub Height  prostrate <40cm, low 40-100cm, tall>100",Tussock/No,Moss? (>30%ish),Moisture %,Elevation,ML Notes,Site,plotID,Water,Barren,G3,Sedge,Shrub,Ratio,Primary,Secondary,Tertiary,ML Class,Match? review,Distance to Water,Alt Distance,Elevation (25cm),Base Elevation,Elevation Dif
+318,1,G3,WC,upland,grass,prostrate,no,,43.6,41,,WC,1,0,0,477,0,0,0:0:10:0:0,G3,Water,Barren,G3,primary,117.5,58.6,47.72,41.59,6.13
 319,2,G3,WC,upland,grass,prostrate,no,,26.3,41.2,,WC,2,0,0,477,0,0,0:0:10:0:0,G3,Water,Barren,G3,,104.3,52.9,47.35,41.59,5.76
 320,3,G3,WC,upland,grass,prostrate,no,,47.1,40.3,,WC,3,0,0,478,0,0,0:0:10:0:0,G3,Water,Barren,G3,,89,52.4,46.9,41.59,5.31
 321,4,G3,WC,upland,grass,prostrate,no,,53.6,39.8,,WC,4,0,0,479,0,0,0:0:10:0:0,G3,Water,Barren,G3,,50.2,,45.07,41.59,3.48
@@ -7,14 +7,14 @@ GPS_ID,Point,CAVM Class,Site,Upland/Wetland,Shrub/Graminoid,"Shrub Height  prost
 323,6,W3,WC,upland,grass,low,no,,1.8,37.6,,WC,6,0,0,41,441,0,0:0:1:10:0,Sedge,G3,Water,W3,*****class dif,1.9,,42.14,41.59,0.55
 324,7,W3,WC,wet,grass,,no,yes,77.4,36.4,,WC,7,0,0,17,404,0,0:0:0:10:0,Sedge,G3,Water,W3,*****,3.8,,41.6,41.59,0.01
 325,8,Water,WC,wet,grass,low,no,yes,56.9,37.1,pic on Gaia GPS and noted as submerged moss peatland hollow,WC,8,0,14,45,423,0,0:0:1:10:0,Sedge,G3,Barren,Water,no pic,0.2,,41.69,41.59,0.1
-326,9,G3,WC,wet,grass,,no,,51.5,41.0,low-sedge dominated area in uplands - looks like W3se,WC,9,0,0,478,0,0,0:0:10:0:0,G3,Water,Barren,G3,,83.3,,45.97,42.27,3.7
+326,9,G3,WC,wet,grass,,no,,51.5,41,low-sedge dominated area in uplands - looks like W3se,WC,9,0,0,478,0,0,0:0:10:0:0,G3,Water,Barren,G3,,83.3,,45.97,42.27,3.7
 327,10,G3,WC,wet,grass,prostrate,no,yes,48.4,40.5,,WC,10,0,0,465,9,3,0:0:10:0:0,G3,Sedge,Shrub,G3,,115.2,,47.01,42.27,4.74
 328,11,G3,WC,upland,grass,prostrate,no,,17.3,43.6,low-sedge dominated area in uplands - looks like W3se,,,,,,,,,,,,,,,,,,
 329,12,G3,WC,upland,grass,,no,,54.5,43.1,,,,,,,,,,,,,,,,,,,
 330,13,G3,WC,upland,grass,,no,,60.9,43.6,,,,,,,,,,,,,,,,,,,
 331,14,G3,WC,upland,shrub,prostrate,no,yes,1.8,45.3,,,,,,,,,,,,,,,,,,,
 332,15,G3,WC,upland,shrub,prostrate,no,yes,48.8,44.3,,,,,,,,,,,,,,,,,,,
-333,16,W3,WC,wet,shrub,low,no,yes,29.7,35.5,,WC,16,0,0,11,218,246,0:0:0:9:10,Shrub,Sedge,G3,W3,*****,38,,41.62,39.57,2.05
+333,16,W3sh ,WC,wet,shrub,low,no,yes,29.7,35.5,,WC,16,0,0,11,218,246,0:0:0:9:10,Shrub,Sedge,G3,W3,*****,38,,41.62,39.57,2.05
 334,17,W3se,WC,wet,grass,low,no,yes,12.7,38.3,,WC,17,0,0,1,475,1,0:0:0:10:0,Sedge,Shrub,G3,Sedge,,35.7,,40.82,39.57,1.25
 335,18,W3se,WC,wet,grass,prostrate,no,yes,92.2,38.1,,WC,18,0,0,16,459,0,0:0:0:10:0,Sedge,G3,Water,Sedge,,15.4,,40.68,39.57,1.11
 336,19,W3se,WC,wet,mud/grass,,no,,72,41.5,,WC,19,8,342,37,89,0,0:10:1:3:0,Barren,Sedge,G3,Sedge,,1,,42.68,42.27,0.41
@@ -37,19 +37,19 @@ GPS_ID,Point,CAVM Class,Site,Upland/Wetland,Shrub/Graminoid,"Shrub Height  prost
 363,36,G3,K31,upland,grass,,no,yes,6.8,229.4,(B3),UNR,36,0,315,169,0,0,0:10:5:0:0,Barren,G3,Water,G3,,52.3,,239.39,237.48,1.91
 364,37,G3,K31,upland,grass,,no,,44.9,231.3,(B3),UNR,37,0,0,483,0,0,0:0:10:0:0,G3,Water,Barren,G3,,36.9,,238.91,237.48,1.43
 365,38,G3,K31,wet,grass,,no,yes,33.8,229.4,(B3),UNR,38,0,0,6,470,1,0:0:0:10:0,Sedge,G3,Shrub,G3,,13,,238.28,237.48,0.8
-386,39,G3,K31,wet,grass,,no,,80.3,232.0,(B3),UNR,39,0,0,8,471,0,0:0:0:10:0,Sedge,G3,Water,G3,,16.75,,238.3,237.48,0.82
+386,39,G3,K31,wet,grass,,no,,80.3,232,(B3),UNR,39,0,0,8,471,0,0:0:0:10:0,Sedge,G3,Water,G3,,16.75,,238.3,237.48,0.82
 387,40,W3sh ,K31,wet,shrub,tall,no,,29,229.4,,UNR,40,0,0,6,15,459,0:0:0:0:10,Shrub,Sedge,G3,Shrub,,3.4,,239.02,237.48,1.54
 388,41,Water,K31,wet,shrub,in water,no,,100,231.3,Stream channel,UNR,41,215,106,7,67,84,10:5:0:3:4,Water,Barren,Shrub,Water,,0,,237.68,237.48,0.2
-389,42,W3se,K31,wet,grass,low,no,,50.8,233.0,,UNR,42,0,0,1,148,325,0:0:0:5:10,Shrub,Sedge,G3,Sedge,,6.7,,238.61,237.48,1.13
-390,43,G3,K31,wet,grass,,no,,73.3,233.0,,UNR,43,0,0,2,342,131,0:0:0:10:4,Sedge,Shrub,G3,G3,,15.3,,238.39,237.48,0.91
+389,42,W3se,K31,wet,grass,low,no,,50.8,233,,UNR,42,0,0,1,148,325,0:0:0:5:10,Shrub,Sedge,G3,Sedge,,6.7,,238.61,237.48,1.13
+390,43,G3,K31,wet,grass,,no,,73.3,233,,UNR,43,0,0,2,342,131,0:0:0:10:4,Sedge,Shrub,G3,G3,,15.3,,238.39,237.48,0.91
 391,44,G3,K31,wet,grass,,no,yes,75.4,230.8,,UNR,44,0,60,1,243,181,0:2:0:10:7,Sedge,Shrub,Barren,G3,should g3/barr,29,,238.22,237.48,0.74
 385,45,W3se,K31,wet,grass,prostrate,no,,89.6,227.7,,UNR,45,101,98,52,224,5,5:4:2:10:0,Sedge,Water,Barren,Sedge,,0.4,,235.53,235.27,0.26
 366,46,W3se,K31,wet,grass,prostrate,no,,50.6,224.8,,UNR,46,0,17,30,423,7,0:0:1:10:0,Sedge,G3,Barren,Sedge,,2.25,,235.58,235.27,0.31
 367,47,G3 ,K31,wet,grass,prostrate,no,,37,230.1,,UNR,47,0,0,29,424,28,0:0:1:10:1,Sedge,G3,Shrub,G3,,21,,236.2,235.27,0.93
 368,48,G3,K31,upland,grass,,no,,34.4,230.4,,UNR,48,0,0,101,374,0,0:0:3:10:0,Sedge,G3,Water,G3,,23.7,,236.55,235.27,1.28
 369,49,G3,K31,upland,grass,,no,,25.2,231.8,,UNR,49,0,5,193,282,0,0:0:7:10:0,Sedge,G3,Barren,G3,,25.1,,236.93,235.27,1.66
-370,50,G3,K31,upland,grass,,no,,31.5,232.0,,UNR,50,0,1,230,246,0,0:0:9:10:0,Sedge,G3,Barren,G3,,28.8,,237.41,235.27,2.14
-371,51,G3,K31,upland,grass,prostrate,no,,24.3,232.0,,UNR,51,0,9,59,389,22,0:0:2:10:1,Sedge,G3,Shrub,G3,,31.6,,237.99,235.27,2.72
+370,50,G3,K31,upland,grass,,no,,31.5,232,,UNR,50,0,1,230,246,0,0:0:9:10:0,Sedge,G3,Barren,G3,,28.8,,237.41,235.27,2.14
+371,51,G3,K31,upland,grass,prostrate,no,,24.3,232,,UNR,51,0,9,59,389,22,0:0:2:10:1,Sedge,G3,Shrub,G3,,31.6,,237.99,235.27,2.72
 372,52,G3,K31,upland,grass,,no,yes,34.9,232.8,,UNR,52,0,0,155,315,9,0:0:5:10:0,Sedge,G3,Shrub,G3,,37.2,,238.48,235.27,3.21
 373,53,W3se,K31,wet,grass,,no,,75.3,234.9,spring away from beaver pond,UNR,53,0,0,1,10,466,0:0:0:0:10,Shrub,Sedge,G3,Sedge,,52.4,,240.18,235.27,4.91
 374,54,W3se,K31,wet,grass,,no,yes,37.6,232.3,spring away from beaver pond,UNR,54,0,256,0,0,227,0:10:0:0:9,Barren,Shrub,Water,Sedge,"edge bias, w3se",63.9,,240.16,235.27,4.89
@@ -57,7 +57,7 @@ GPS_ID,Point,CAVM Class,Site,Upland/Wetland,Shrub/Graminoid,"Shrub Height  prost
 376,56,G3,K31,upland,,,no,,21.7,237.6,,UNR,56,0,0,481,0,0,0:0:10:0:0,G3,Water,Barren,G3,,157.75,,242.76,230.08,12.68
 377,57,G3,K31,upland,shrub,prostrate,no,,32.9,235.6,,UNR,57,0,0,479,0,0,0:0:10:0:0,G3,Water,Barren,G3,,131.2,,241.29,230.08,11.21
 378,58,G3,K31,upland,shrub,prostrate,no,,29.1,235.4,,UNR,58,0,0,477,0,1,0:0:10:0:0,G3,Shrub,Water,G3,,92.9,,239.09,230.08,9.01
-379,59,G3,K31,upland,shrub,low,no,,20.3,234.0,,UNR,59,0,0,5,87,385,0:0:0:2:10,Shrub,Sedge,G3,G3,,68,,237.89,230.08,7.81
+379,59,G3,K31,upland,shrub,low,no,,20.3,234,,UNR,59,0,0,5,87,385,0:0:0:2:10,Shrub,Sedge,G3,G3,,68,,237.89,230.08,7.81
 380,60,W3se,K31,wet,grass,low,no,,61.1,229.9,spring away from beaver pond,UNR,60,0,0,0,36,440,0:0:0:1:10,Shrub,Sedge,Water,Sedge,,55.9,,234.24,230.08,4.16
 381,61,W3se,K31,wet,grass,,no,,62.2,227.7,,UNR,61,0,0,1,470,4,0:0:0:10:0,Sedge,Shrub,G3,Sedge,,39,,232.79,230.08,2.71
 382,62,W3se,K31,wet,grass,prostrate,no,,52.2,225.8,,UNR,62,0,0,0,474,0,0:0:0:10:0,Sedge,Water,Barren,Sedge,,25.8,,231.93,230.08,1.85
@@ -75,7 +75,7 @@ GPS_ID,Point,CAVM Class,Site,Upland/Wetland,Shrub/Graminoid,"Shrub Height  prost
 412,74,W3se,K66,wet,grass,,no,,50.1,33.8,,,,,,,,,,,,,,,,,,,
 413,75,W3se,K66,wet,shrub,low,no,,49.7,34.3,,,,,,,,,,,,,,,,,,,
 414,76,Pond Margin,K66,wet,mud/grass,,no,,58.7,35.2,,K66,76,356,NA,23,103,1,10:NA:1:3:0,Water,Sedge,G3,Pond Margin,***bar/w3se/h2o,0.1,,39.05,38.78,0.27
-415,77,Pond Margin,K66,wet,mud/grass,,no,,44.4,34.0,,K66,77,259,NA,34,181,0,10:NA:1:7:0,Water,Sedge,G3,Pond Margin,*****no pic,0.1,,39.4,38.78,0.62
+415,77,Pond Margin,K66,wet,mud/grass,,no,,44.4,34,,K66,77,259,NA,34,181,0,10:NA:1:7:0,Water,Sedge,G3,Pond Margin,*****no pic,0.1,,39.4,38.78,0.62
 416,78,W3sh ,K66,wet,shrub,tall,no,yes,9.5,35.5,dead shrubs in recently drained beaver pond,K66,78,0,NA,304,168,5,0:NA:10:6:0,G3,Sedge,Shrub,W3 ,*****w3sh>w3se,1.3,,40.07,38.78,1.29
 417,79,W3sh ,K66,wet,shrub,low,no,yes,0.3,34.7,,K66,79,0,NA,0,165,312,0:NA:0:5:10,Shrub,Sedge,Water,Shrub,,5.4,,40.49,38.78,1.71
 418,80,G4,K66,upland,shrub,prostrate,no,yes,20.5,37.4,transition from wetland to upland,K66,80,0,NA,2,478,0,0:NA:0:10:0,Sedge,G3,Water,G4,*****moss+w3sh,11.7,,40.78,38.78,2
@@ -90,7 +90,7 @@ GPS_ID,Point,CAVM Class,Site,Upland/Wetland,Shrub/Graminoid,"Shrub Height  prost
 431,89,S2,K66,wet,shrub,tall,no,yes,50.6,26.6,riparian shrub understory,,,,,,,,,,,,,,,,,,
 432,90,S2,K66,wet,shrub,tall,no,,14.9,26.6,riparian shrub understory,,,,,,,,,,,,,,,,,,
 433,91,S2,K66,wet,shrub,tall,no,yes,29.9,11.7,riparian shrub understory,,,,,,,,,,,,,,,,,,
-434,92,S2,K66,wet,shrub,low,no,yes,1.9,29.0,riparian shrub understory,,,,,,,,,,,,,,,,,,
+434,92,S2,K66,wet,shrub,low,no,yes,1.9,29,riparian shrub understory,,,,,,,,,,,,,,,,,,
 ,93,S2,K66,wet,shrub,,no,,41,,riparian shrub understory,,,,,,,,,,,,,,,,,,
 ,94,S2,K66,wet,shrub,tall,no,,7.6,,riparian shrub understory,,,,,,,,,,,,,,,,,,
 ,95,S2,K66,wet,shrub,prostrate,no,yes,42.6,,riparian shrub understory,,,,,,,,,,,,,,,,,,

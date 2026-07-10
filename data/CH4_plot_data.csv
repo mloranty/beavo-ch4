@@ -1,4 +1,4 @@
-plotID,site,transect,td,td_note,gps_id,temp,vwc 
+plotID,site,transect,td,td_note,gpsID,temp,vwc 
 1,wc,1,64,,318,51,43.6
 2,wc,1,56,,319,43.8,26.3
 3,wc,1,56,,320,42.1,47.1
